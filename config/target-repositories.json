@@ -2,6 +2,19 @@
   "schema_version": 2,
   "repositories": [
     {
+      "target_repo": "djpapzin/oddsedge",
+      "display_name": "OddsEdge",
+      "checkout_dir": "oddsedge",
+      "prompt_note": "Use the OddsEdge source tree and current main branch. Review issues and pull requests conservatively. Keep issues open and do not auto-close pull requests until a repository-specific policy is deliberately enabled.",
+      "apply_close_rules": {
+        "issue": [],
+        "pull_request": []
+      },
+      "package_manager": "pnpm",
+      "validation_commands": [],
+      "changed_gate": null
+    },
+    {
       "target_repo": "openclaw/clawhub",
       "display_name": "ClawHub",
       "checkout_dir": "clawhub",
